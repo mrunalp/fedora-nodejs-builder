@@ -1,0 +1,9 @@
+#!/bin/bash -ex
+
+cp -fR /tmp/src /nodeapp
+
+pushd /nodeapp/src
+pwd
+ls -l
+npm install
+popd
